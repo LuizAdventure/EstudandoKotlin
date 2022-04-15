@@ -4,7 +4,6 @@ buildscript {
     //versao do kotlin
     ext.kotlin_version = '1.6.10'
 
-
     //repositorio de dependencias
     repositories {
         google()
@@ -16,6 +15,7 @@ buildscript {
 
         //configuração do kotlin no projeto
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
